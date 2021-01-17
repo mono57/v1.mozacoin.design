@@ -5,14 +5,15 @@ import Balance from '../components/Balance'
 import ButtonControl from '../components/ButtonControl'
 import Wallet from '../components/Wallet'
 
-export default () => {
+export default ({navigation}) => {
+    const onNavigate = screenName => navigation.navigate(screenName)
     return (
         <SafeAreaView style={styles.container}>
             <ScrollView showsVerticalScrollIndicator={false}>
 
                 <Balance />
                 <ButtonControl />
-                <Wallet />
+                <Wallet nav={onNavigate} />
             </ScrollView>
 
         </SafeAreaView>

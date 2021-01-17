@@ -1,7 +1,8 @@
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { View, Text } from 'react-native'
-import HomeScreen from '../screens/Home';
+import HomeScreen from '../screens/Home'
+import WalletPage from '../screens/WalletPage'
 
 const BottomTabNavigator = createBottomTabNavigator();
 
@@ -18,7 +19,7 @@ export default () => {
     return (
         <BottomTabNavigator.Navigator>
             <BottomTabNavigator.Screen name="Home" component={HomeScreen} />
-            <BottomTabNavigator.Screen name="Settings" component={SettingsScreen} />
+            <BottomTabNavigator.Screen name="WalletPage" component={WalletPage} />
         </BottomTabNavigator.Navigator>
     )
 
