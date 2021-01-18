@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { View, Image, Text } from 'react-native'
+import { View, Image, Text} from 'react-native'
 import WalletList from '../screens/WalletList'
 import themeColors from '../theme/colors'
 
@@ -49,7 +49,7 @@ export default class Wallet extends React.Component {
                     money= "FCFA 12,234,983.00"
                 />
 
-                <WalletList 
+                <WalletList
                     img= {require('../assets/images/stellarcoin.png')}
                     title= "Stellarcoin"
                     money= "FCFA 12,234,983.00"
