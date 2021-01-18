@@ -18,7 +18,7 @@ export default class WalletList extends React.Component {
                         <View style={{
                             flexDirection: "row",
                             alignItems: "center",
-                        }}>
+                        }} > 
                             <Image 
                                 source={img}
                             />
