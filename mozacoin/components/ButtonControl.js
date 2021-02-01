@@ -11,10 +11,10 @@ const Control = ({ displayText, iconName, bgColor = themeColors.primary, iconTyp
             <View style={{
                 alignItems: 'center',
                 justifyContent: 'center',
-                borderRadius: 3,
+                borderRadius: 4,
                 backgroundColor: bgColor,
-                height: 60,
-                width: 60
+                height: 50,
+                width: 50
             }}>
                 <Icon
                     name={iconName}
@@ -36,7 +36,7 @@ export default () => {
             <Control displayText='Top Up' iconName='caret-up' />
             <Control displayText='Payout' iconName='caret-down' />
             <Control 
-                displayText='Send to friend' 
+                displayText='Send to Friend' 
                 iconName='send' 
                 bgColor={themeColors.secondary} 
                 iconType="feather"

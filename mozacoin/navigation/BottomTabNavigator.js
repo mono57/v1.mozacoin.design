@@ -20,6 +20,7 @@ export default () => {
         <BottomTabNavigator.Navigator>
             <BottomTabNavigator.Screen name="Home" component={HomeScreen} />
             <BottomTabNavigator.Screen name="WalletPage" component={WalletPage} />
+            <BottomTabNavigator.Screen name="SettingsPage" component={SettingsScreen} />
         </BottomTabNavigator.Navigator>
     )
 

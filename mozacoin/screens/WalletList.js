@@ -13,7 +13,7 @@ export default class WalletList extends React.Component {
                         flexDirection: "row",
                         alignItems: "center",
                         justifyContent: "space-between",
-                        marginTop: 15,
+                        marginTop: 16,
                     }}> 
                         <View style={{
                             flexDirection: "row",
@@ -24,11 +24,12 @@ export default class WalletList extends React.Component {
                             />
                             <View style={{marginLeft: 8}}>
                                 <Text style={{
-                                    fontSize: 24,
+                                    fontSize: 20,
+                                    fontWeight: '900'
                                 }}>{title}</Text>
 
                                 <View style= {{flexDirection: 'row'}}>
-                                    <Text>{money}</Text>
+                                    <Text style={{color: '#99989A'}}>{money}</Text>
                                     <Text style={{
                                         color: themeColors.primary
                                     }}>{' '} +0.42%</Text>
@@ -40,7 +41,7 @@ export default class WalletList extends React.Component {
                             alignItems: "flex-end"
                         }}>
                             <Text style={{fontSize: 18}}>0.09322 BTC</Text>
-                            <Text>~FCFA 72,382</Text>
+                            <Text style={{color: '#99989A'}} >~FCFA 72,382</Text>
 
                         </View>
                     </View>
