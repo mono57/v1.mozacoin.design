@@ -10,21 +10,22 @@ export default () => (
         <View
             style={{
                 flexDirection: 'row',
-                alignItems: 'center'
+                alignItems: 'center',
+                paddingTop: 20
             }}>
             <Text style={{ fontSize: 18, marginRight: 6, color:themeColors.gray_md }}>Current Balance</Text>
-            <Icon name="eye" type="ionicon" />
+            <Icon name="eye" type="ionicon" size={17} />
         </View>
         <View style={{ flexDirection: 'row', alignItems: 'flex-end', marginTop: 15 }}>
             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <Text style={{ marginRight: 4, fontSize: 18 }}>
+                <Text style={{ marginRight: 4, fontSize: 20 }}>
                     FCFA </Text>
-                <Text style={{ fontWeight: 'bold', fontSize: 40 }}>72.382</Text>
+                <Text style={{ fontWeight: 'bold', fontSize: 50 }}>72,382</Text>
             </View>
-            <Text style={{marginBottom: 3, fontSize: 16}}>,00</Text>
+            <Text style={{marginBottom: 6, fontSize: 20}}>.00</Text>
         </View>
 
-        <Text style={{marginTop: 8, fontSize: 16, color: themeColors.gray}}>0.023829487 BTC</Text>
+        <Text style={{marginTop: 8, fontSize: 18 , color: themeColors.gray}}>0.023829487 BTC</Text>
     </View>
 );
 
